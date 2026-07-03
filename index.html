@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html><head><meta charset="UTF-8"><title>Drops test</title>
+<style>body{font-family:sans-serif;padding:20px}.kpis{display:flex;gap:12px}.kpi{background:#f0f4f8;padding:14px;border-radius:8px}.kpi .n{font-size:24pt;font-weight:800}</style>
+</head><body>
+<div id="tab-drops" class="tab-pane">
+<h2 style="margin-top:0">Dropped Students by Quarter</h2>
+<p style="font-size:13px;color:#000;margin:0 0 18px;line-height:1.55">Pipedrive deals from Attending stages that transitioned to <code>status=lost</code>, bucketed by quarter and reason. Focus period: 2024 onward. <strong>Total: 1287 drops.</strong></p>
+<div style="background:#fff;border:1px solid #E4E9EF;border-radius:8px;padding:16px 20px;overflow-x:auto">
+<svg viewBox="0 0 780 300" width="100%" style="max-width:900px;font-family:inherit">
+<line x1="60" y1="260" x2="760" y2="260" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="264" text-anchor="end" font-size="11" fill="#000">0</text>
+<line x1="60" y1="212" x2="760" y2="212" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="216" text-anchor="end" font-size="11" fill="#000">39</text>
+<line x1="60" y1="164" x2="760" y2="164" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="168" text-anchor="end" font-size="11" fill="#000">78</text>
+<line x1="60" y1="116" x2="760" y2="116" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="120" text-anchor="end" font-size="11" fill="#000">116</text>
+<line x1="60" y1="68" x2="760" y2="68" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="72" text-anchor="end" font-size="11" fill="#000">155</text>
+<line x1="60" y1="20" x2="760" y2="20" stroke="#E4E9EF" stroke-width="1"/>
+<text x="52" y="24" text-anchor="end" font-size="11" fill="#000">194</text>
+<rect x="63.8181818181818" y="237.731958762887" width="56" height="22.2680412371134" fill="#5D9CE6"><title>2024-Q1 &#8226; Break: 18</title></rect>
+<rect x="63.8181818181818" y="198.144329896907" width="56" height="39.5876288659794" fill="#7A8A9A"><title>2024-Q1 &#8226; Busy: 32</title></rect>
+<rect x="63.8181818181818" y="183.298969072165" width="56" height="14.8453608247423" fill="#B23A48"><title>2024-Q1 &#8226; Budget: 12</title></rect>
+<rect x="63.8181818181818" y="137.525773195876" width="56" height="45.7731958762887" fill="#C7821E"><title>2024-Q1 &#8226; Attendance: 37</title></rect>
+<rect x="63.8181818181818" y="100.412371134021" width="56" height="37.1134020618557" fill="#D96C6C"><title>2024-Q1 &#8226; Lost Interest: 30</title></rect>
+<rect x="63.8181818181818" y="90.5154639175258" width="56" height="9.89690721649485" fill="#8E5EA2"><title>2024-Q1 &#8226; Personal Issues: 8</title></rect>
+<rect x="63.8181818181818" y="89.2783505154639" width="56" height="1.23711340206186" fill="#4A5A6E"><title>2024-Q1 &#8226; Schedule: 1</title></rect>
+<rect x="63.8181818181818" y="80.6185567010309" width="56" height="8.65979381443299" fill="#525B62"><title>2024-Q1 &#8226; Tech Problems: 7</title></rect>
+<rect x="63.8181818181818" y="73.1958762886598" width="56" height="7.42268041237113" fill="#B9550A"><title>2024-Q1 &#8226; Behavior: 6</title></rect>
+<rect x="63.8181818181818" y="69.4845360824742" width="56" height="3.71134020618557" fill="#7B241C"><title>2024-Q1 &#8226; Unhappy with Service: 3</title></rect>
+<rect x="63.8181818181818" y="68.2474226804124" width="56" height="1.23711340206186" fill="#946B2D"><title>2024-Q1 &#8226; Wants Different Class Type: 1</title></rect>
+<text x="91.8181818181818" y="64.2474226804124" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">155</text>
+<text x="91.8181818181818" y="288" text-anchor="middle" font-size="11" fill="#000">2024-Q1</text>
+<rect x="127.454545454545" y="195.670103092784" width="56" height="64.3298969072165" fill="#5D9CE6"><title>2024-Q2 &#8226; Break: 52</title></rect>
+<rect x="127.454545454545" y="147.422680412371" width="56" height="48.2474226804124" fill="#7A8A9A"><title>2024-Q2 &#8226; Busy: 39</title></rect>
+<rect x="127.454545454545" y="116.494845360825" width="56" height="30.9278350515464" fill="#B23A48"><title>2024-Q2 &#8226; Budget: 25</title></rect>
+<rect x="127.454545454545" y="78.1443298969072" width="56" height="38.3505154639175" fill="#C7821E"><title>2024-Q2 &#8226; Attendance: 31</title></rect>
+<rect x="127.454545454545" y="52.1649484536082" width="56" height="25.979381443299" fill="#D96C6C"><title>2024-Q2 &#8226; Lost Interest: 21</title></rect>
+<rect x="127.454545454545" y="45.979381443299" width="56" height="6.18556701030928" fill="#8E5EA2"><title>2024-Q2 &#8226; Personal Issues: 5</title></rect>
+<rect x="127.454545454545" y="44.7422680412371" width="56" height="1.23711340206186" fill="#4A5A6E"><title>2024-Q2 &#8226; Schedule: 1</title></rect>
+<rect x="127.454545454545" y="41.0309278350515" width="56" height="3.71134020618557" fill="#525B62"><title>2024-Q2 &#8226; Tech Problems: 3</title></rect>
+<rect x="127.454545454545" y="33.6082474226804" width="56" height="7.42268041237113" fill="#B9550A"><title>2024-Q2 &#8226; Behavior: 6</title></rect>
+<rect x="127.454545454545" y="28.659793814433" width="56" height="4.94845360824742" fill="#556B76"><title>2024-Q2 &#8226; Moved Away: 4</title></rect>
+<rect x="127.454545454545" y="26.1855670103093" width="56" height="2.47422680412371" fill="#7B241C"><title>2024-Q2 &#8226; Unhappy with Service: 2</title></rect>
+<rect x="127.454545454545" y="20" width="56" height="6.18556701030928" fill="#B0B8C4"><title>2024-Q2 &#8226; Unknown: 5</title></rect>
+<text x="155.454545454545" y="16" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">194</text>
+<text x="155.454545454545" y="288" text-anchor="middle" font-size="11" fill="#000">2024-Q2</text>
+<rect x="191.090909090909" y="229.072164948454" width="56" height="30.9278350515464" fill="#5D9CE6"><title>2024-Q3 &#8226; Break: 25</title></rect>
+<rect x="191.090909090909" y="184.536082474227" width="56" height="44.5360824742268" fill="#7A8A9A"><title>2024-Q3 &#8226; Busy: 36</title></rect>
+<rect x="191.090909090909" y="153.60824742268" width="56" height="30.9278350515464" fill="#B23A48"><title>2024-Q3 &#8226; Budget: 25</title></rect>
+<rect x="191.090909090909" y="131.340206185567" width="56" height="22.2680412371134" fill="#C7821E"><title>2024-Q3 &#8226; Attendance: 18</title></rect>
+<rect x="191.090909090909" y="112.783505154639" width="56" height="18.5567010309278" fill="#D96C6C"><title>2024-Q3 &#8226; Lost Interest: 15</title></rect>
+<rect x="191.090909090909" y="110.309278350515" width="56" height="2.47422680412371" fill="#8E5EA2"><title>2024-Q3 &#8226; Personal Issues: 2</title></rect>
+<rect x="191.090909090909" y="106.59793814433" width="56" height="3.71134020618557" fill="#4A5A6E"><title>2024-Q3 &#8226; Schedule: 3</title></rect>
+<rect x="191.090909090909" y="100.412371134021" width="56" height="6.18556701030928" fill="#525B62"><title>2024-Q3 &#8226; Tech Problems: 5</title></rect>
+<rect x="191.090909090909" y="99.1752577319588" width="56" height="1.23711340206186" fill="#B9550A"><title>2024-Q3 &#8226; Behavior: 1</title></rect>
+<rect x="191.090909090909" y="95.4639175257732" width="56" height="3.71134020618557" fill="#0E6655"><title>2024-Q3 &#8226; Medical: 3</title></rect>
+<rect x="191.090909090909" y="90.5154639175258" width="56" height="4.94845360824742" fill="#556B76"><title>2024-Q3 &#8226; Moved Away: 4</title></rect>
+<rect x="191.090909090909" y="88.041237113402" width="56" height="2.47422680412371" fill="#7B241C"><title>2024-Q3 &#8226; Unhappy with Service: 2</title></rect>
+<rect x="191.090909090909" y="79.3814432989691" width="56" height="8.65979381443299" fill="#946B2D"><title>2024-Q3 &#8226; Wants Different Class Type: 7</title></rect>
+<rect x="191.090909090909" y="60.8247422680412" width="56" height="18.5567010309278" fill="#B0B8C4"><title>2024-Q3 &#8226; Unknown: 15</title></rect>
+<text x="219.090909090909" y="56.8247422680412" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">161</text>
+<text x="219.090909090909" y="288" text-anchor="middle" font-size="11" fill="#000">2024-Q3</text>
+<rect x="254.727272727273" y="251.340206185567" width="56" height="8.65979381443299" fill="#5D9CE6"><title>2024-Q4 &#8226; Break: 7</title></rect>
+<rect x="254.727272727273" y="236.494845360825" width="56" height="14.8453608247423" fill="#7A8A9A"><title>2024-Q4 &#8226; Busy: 12</title></rect>
+<rect x="254.727272727273" y="222.886597938144" width="56" height="13.6082474226804" fill="#B23A48"><title>2024-Q4 &#8226; Budget: 11</title></rect>
+<rect x="254.727272727273" y="210.515463917526" width="56" height="12.3711340206186" fill="#C7821E"><title>2024-Q4 &#8226; Attendance: 10</title></rect>
+<rect x="254.727272727273" y="199.381443298969" width="56" height="11.1340206185567" fill="#D96C6C"><title>2024-Q4 &#8226; Lost Interest: 9</title></rect>
+<rect x="254.727272727273" y="189.484536082474" width="56" height="9.89690721649485" fill="#8E5EA2"><title>2024-Q4 &#8226; Personal Issues: 8</title></rect>
+<rect x="254.727272727273" y="185.773195876289" width="56" height="3.71134020618557" fill="#4A5A6E"><title>2024-Q4 &#8226; Schedule: 3</title></rect>
+<rect x="254.727272727273" y="183.298969072165" width="56" height="2.47422680412371" fill="#525B62"><title>2024-Q4 &#8226; Tech Problems: 2</title></rect>
+<rect x="254.727272727273" y="180.824742268041" width="56" height="2.47422680412371" fill="#B9550A"><title>2024-Q4 &#8226; Behavior: 2</title></rect>
+<rect x="254.727272727273" y="178.350515463918" width="56" height="2.47422680412371" fill="#556B76"><title>2024-Q4 &#8226; Moved Away: 2</title></rect>
+<rect x="254.727272727273" y="177.113402061856" width="56" height="1.23711340206186" fill="#946B2D"><title>2024-Q4 &#8226; Wants Different Class Type: 1</title></rect>
+<rect x="254.727272727273" y="162.268041237113" width="56" height="14.8453608247423" fill="#B0B8C4"><title>2024-Q4 &#8226; Unknown: 12</title></rect>
+<text x="282.727272727273" y="158.268041237113" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">79</text>
+<text x="282.727272727273" y="288" text-anchor="middle" font-size="11" fill="#000">2024-Q4</text>
+<rect x="318.363636363636" y="248.865979381443" width="56" height="11.1340206185567" fill="#5D9CE6"><title>2025-Q1 &#8226; Break: 9</title></rect>
+<rect x="318.363636363636" y="236.494845360825" width="56" height="12.3711340206186" fill="#7A8A9A"><title>2025-Q1 &#8226; Busy: 10</title></rect>
+<rect x="318.363636363636" y="219.175257731959" width="56" height="17.319587628866" fill="#B23A48"><title>2025-Q1 &#8226; Budget: 14</title></rect>
+<rect x="318.363636363636" y="204.329896907216" width="56" height="14.8453608247423" fill="#C7821E"><title>2025-Q1 &#8226; Attendance: 12</title></rect>
+<rect x="318.363636363636" y="195.670103092784" width="56" height="8.65979381443299" fill="#D96C6C"><title>2025-Q1 &#8226; Lost Interest: 7</title></rect>
+<rect x="318.363636363636" y="185.773195876289" width="56" height="9.89690721649485" fill="#8E5EA2"><title>2025-Q1 &#8226; Personal Issues: 8</title></rect>
+<rect x="318.363636363636" y="180.824742268041" width="56" height="4.94845360824742" fill="#4A5A6E"><title>2025-Q1 &#8226; Schedule: 4</title></rect>
+<rect x="318.363636363636" y="177.113402061856" width="56" height="3.71134020618557" fill="#B9550A"><title>2025-Q1 &#8226; Behavior: 3</title></rect>
+<rect x="318.363636363636" y="175.876288659794" width="56" height="1.23711340206186" fill="#8B4513"><title>2025-Q1 &#8226; Instructor Problems: 1</title></rect>
+<rect x="318.363636363636" y="148.659793814433" width="56" height="27.2164948453608" fill="#B0B8C4"><title>2025-Q1 &#8226; Unknown: 22</title></rect>
+<text x="346.363636363636" y="144.659793814433" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">90</text>
+<text x="346.363636363636" y="288" text-anchor="middle" font-size="11" fill="#000">2025-Q1</text>
+<rect x="382" y="242.680412371134" width="56" height="17.319587628866" fill="#5D9CE6"><title>2025-Q2 &#8226; Break: 14</title></rect>
+<rect x="382" y="222.886597938144" width="56" height="19.7938144329897" fill="#7A8A9A"><title>2025-Q2 &#8226; Busy: 16</title></rect>
+<rect x="382" y="206.80412371134" width="56" height="16.0824742268041" fill="#B23A48"><title>2025-Q2 &#8226; Budget: 13</title></rect>
+<rect x="382" y="198.144329896907" width="56" height="8.65979381443299" fill="#C7821E"><title>2025-Q2 &#8226; Attendance: 7</title></rect>
+<rect x="382" y="194.432989690722" width="56" height="3.71134020618557" fill="#D96C6C"><title>2025-Q2 &#8226; Lost Interest: 3</title></rect>
+<rect x="382" y="187.010309278351" width="56" height="7.42268041237113" fill="#8E5EA2"><title>2025-Q2 &#8226; Personal Issues: 6</title></rect>
+<rect x="382" y="182.061855670103" width="56" height="4.94845360824742" fill="#4A5A6E"><title>2025-Q2 &#8226; Schedule: 4</title></rect>
+<rect x="382" y="180.824742268041" width="56" height="1.23711340206186" fill="#525B62"><title>2025-Q2 &#8226; Tech Problems: 1</title></rect>
+<rect x="382" y="179.587628865979" width="56" height="1.23711340206186" fill="#B9550A"><title>2025-Q2 &#8226; Behavior: 1</title></rect>
+<rect x="382" y="174.639175257732" width="56" height="4.94845360824742" fill="#0E6655"><title>2025-Q2 &#8226; Medical: 4</title></rect>
+<rect x="382" y="173.40206185567" width="56" height="1.23711340206186" fill="#556B76"><title>2025-Q2 &#8226; Moved Away: 1</title></rect>
+<rect x="382" y="172.164948453608" width="56" height="1.23711340206186" fill="#946B2D"><title>2025-Q2 &#8226; Wants Different Class Type: 1</title></rect>
+<rect x="382" y="154.845360824742" width="56" height="17.319587628866" fill="#B0B8C4"><title>2025-Q2 &#8226; Unknown: 14</title></rect>
+<text x="410" y="150.845360824742" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">85</text>
+<text x="410" y="288" text-anchor="middle" font-size="11" fill="#000">2025-Q2</text>
+<rect x="445.636363636364" y="215.463917525773" width="56" height="44.5360824742268" fill="#5D9CE6"><title>2025-Q3 &#8226; Break: 36</title></rect>
+<rect x="445.636363636364" y="188.247422680412" width="56" height="27.2164948453608" fill="#7A8A9A"><title>2025-Q3 &#8226; Busy: 22</title></rect>
+<rect x="445.636363636364" y="168.453608247423" width="56" height="19.7938144329897" fill="#B23A48"><title>2025-Q3 &#8226; Budget: 16</title></rect>
+<rect x="445.636363636364" y="152.371134020619" width="56" height="16.0824742268041" fill="#C7821E"><title>2025-Q3 &#8226; Attendance: 13</title></rect>
+<rect x="445.636363636364" y="144.948453608247" width="56" height="7.42268041237113" fill="#D96C6C"><title>2025-Q3 &#8226; Lost Interest: 6</title></rect>
+<rect x="445.636363636364" y="141.237113402062" width="56" height="3.71134020618557" fill="#8E5EA2"><title>2025-Q3 &#8226; Personal Issues: 3</title></rect>
+<rect x="445.636363636364" y="127.628865979381" width="56" height="13.6082474226804" fill="#4A5A6E"><title>2025-Q3 &#8226; Schedule: 11</title></rect>
+<rect x="445.636363636364" y="126.39175257732" width="56" height="1.23711340206186" fill="#525B62"><title>2025-Q3 &#8226; Tech Problems: 1</title></rect>
+<rect x="445.636363636364" y="125.154639175258" width="56" height="1.23711340206186" fill="#0E6655"><title>2025-Q3 &#8226; Medical: 1</title></rect>
+<rect x="445.636363636364" y="123.917525773196" width="56" height="1.23711340206186" fill="#7B241C"><title>2025-Q3 &#8226; Unhappy with Service: 1</title></rect>
+<rect x="445.636363636364" y="122.680412371134" width="56" height="1.23711340206186" fill="#946B2D"><title>2025-Q3 &#8226; Wants Different Class Type: 1</title></rect>
+<rect x="445.636363636364" y="120.20618556701" width="56" height="2.47422680412371" fill="#5F9EA0"><title>2025-Q3 &#8226; Finished Projects: 2</title></rect>
+<rect x="445.636363636364" y="102.886597938144" width="56" height="17.319587628866" fill="#B0B8C4"><title>2025-Q3 &#8226; Unknown: 14</title></rect>
+<text x="473.636363636364" y="98.8865979381443" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">127</text>
+<text x="473.636363636364" y="288" text-anchor="middle" font-size="11" fill="#000">2025-Q3</text>
+<rect x="509.272727272727" y="250.103092783505" width="56" height="9.89690721649485" fill="#5D9CE6"><title>2025-Q4 &#8226; Break: 8</title></rect>
+<rect x="509.272727272727" y="231.546391752577" width="56" height="18.5567010309278" fill="#7A8A9A"><title>2025-Q4 &#8226; Busy: 15</title></rect>
+<rect x="509.272727272727" y="209.278350515464" width="56" height="22.2680412371134" fill="#B23A48"><title>2025-Q4 &#8226; Budget: 18</title></rect>
+<rect x="509.272727272727" y="193.19587628866" width="56" height="16.0824742268041" fill="#C7821E"><title>2025-Q4 &#8226; Attendance: 13</title></rect>
+<rect x="509.272727272727" y="185.773195876289" width="56" height="7.42268041237113" fill="#D96C6C"><title>2025-Q4 &#8226; Lost Interest: 6</title></rect>
+<rect x="509.272727272727" y="172.164948453608" width="56" height="13.6082474226804" fill="#8E5EA2"><title>2025-Q4 &#8226; Personal Issues: 11</title></rect>
+<rect x="509.272727272727" y="170.927835051546" width="56" height="1.23711340206186" fill="#4A5A6E"><title>2025-Q4 &#8226; Schedule: 1</title></rect>
+<rect x="509.272727272727" y="169.690721649485" width="56" height="1.23711340206186" fill="#525B62"><title>2025-Q4 &#8226; Tech Problems: 1</title></rect>
+<rect x="509.272727272727" y="164.742268041237" width="56" height="4.94845360824742" fill="#B9550A"><title>2025-Q4 &#8226; Behavior: 4</title></rect>
+<rect x="509.272727272727" y="163.505154639175" width="56" height="1.23711340206186" fill="#0E6655"><title>2025-Q4 &#8226; Medical: 1</title></rect>
+<rect x="509.272727272727" y="162.268041237113" width="56" height="1.23711340206186" fill="#556B76"><title>2025-Q4 &#8226; Moved Away: 1</title></rect>
+<rect x="509.272727272727" y="159.79381443299" width="56" height="2.47422680412371" fill="#7B241C"><title>2025-Q4 &#8226; Unhappy with Service: 2</title></rect>
+<rect x="509.272727272727" y="158.556701030928" width="56" height="1.23711340206186" fill="#5F9EA0"><title>2025-Q4 &#8226; Finished Projects: 1</title></rect>
+<rect x="509.272727272727" y="157.319587628866" width="56" height="1.23711340206186" fill="#8B4513"><title>2025-Q4 &#8226; Instructor Problems: 1</title></rect>
+<rect x="509.272727272727" y="142.474226804124" width="56" height="14.8453608247423" fill="#B0B8C4"><title>2025-Q4 &#8226; Unknown: 12</title></rect>
+<text x="537.272727272727" y="138.474226804124" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">95</text>
+<text x="537.272727272727" y="288" text-anchor="middle" font-size="11" fill="#000">2025-Q4</text>
+<rect x="572.909090909091" y="250.103092783505" width="56" height="9.89690721649485" fill="#5D9CE6"><title>2026-Q1 &#8226; Break: 8</title></rect>
+<rect x="572.909090909091" y="224.123711340206" width="56" height="25.979381443299" fill="#7A8A9A"><title>2026-Q1 &#8226; Busy: 21</title></rect>
+<rect x="572.909090909091" y="198.144329896907" width="56" height="25.979381443299" fill="#B23A48"><title>2026-Q1 &#8226; Budget: 21</title></rect>
+<rect x="572.909090909091" y="188.247422680412" width="56" height="9.89690721649485" fill="#C7821E"><title>2026-Q1 &#8226; Attendance: 8</title></rect>
+<rect x="572.909090909091" y="179.587628865979" width="56" height="8.65979381443299" fill="#D96C6C"><title>2026-Q1 &#8226; Lost Interest: 7</title></rect>
+<rect x="572.909090909091" y="163.505154639175" width="56" height="16.0824742268041" fill="#8E5EA2"><title>2026-Q1 &#8226; Personal Issues: 13</title></rect>
+<rect x="572.909090909091" y="158.556701030928" width="56" height="4.94845360824742" fill="#4A5A6E"><title>2026-Q1 &#8226; Schedule: 4</title></rect>
+<rect x="572.909090909091" y="154.845360824742" width="56" height="3.71134020618557" fill="#525B62"><title>2026-Q1 &#8226; Tech Problems: 3</title></rect>
+<rect x="572.909090909091" y="153.60824742268" width="56" height="1.23711340206186" fill="#B9550A"><title>2026-Q1 &#8226; Behavior: 1</title></rect>
+<rect x="572.909090909091" y="152.371134020619" width="56" height="1.23711340206186" fill="#0E6655"><title>2026-Q1 &#8226; Medical: 1</title></rect>
+<rect x="572.909090909091" y="151.134020618557" width="56" height="1.23711340206186" fill="#7B241C"><title>2026-Q1 &#8226; Unhappy with Service: 1</title></rect>
+<rect x="572.909090909091" y="149.896907216495" width="56" height="1.23711340206186" fill="#5F9EA0"><title>2026-Q1 &#8226; Finished Projects: 1</title></rect>
+<rect x="572.909090909091" y="148.659793814433" width="56" height="1.23711340206186" fill="#8B4513"><title>2026-Q1 &#8226; Instructor Problems: 1</title></rect>
+<rect x="572.909090909091" y="147.422680412371" width="56" height="1.23711340206186" fill="#4B4B4B"><title>2026-Q1 &#8226; Passed Away: 1</title></rect>
+<rect x="572.909090909091" y="88.0412371134021" width="56" height="59.3814432989691" fill="#B0B8C4"><title>2026-Q1 &#8226; Unknown: 48</title></rect>
+<text x="600.909090909091" y="84.0412371134021" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">139</text>
+<text x="600.909090909091" y="288" text-anchor="middle" font-size="11" fill="#000">2026-Q1</text>
+<rect x="636.545454545455" y="204.329896907216" width="56" height="55.6701030927835" fill="#5D9CE6"><title>2026-Q2 &#8226; Break: 45</title></rect>
+<rect x="636.545454545455" y="182.061855670103" width="56" height="22.2680412371134" fill="#7A8A9A"><title>2026-Q2 &#8226; Busy: 18</title></rect>
+<rect x="636.545454545455" y="152.371134020619" width="56" height="29.6907216494845" fill="#B23A48"><title>2026-Q2 &#8226; Budget: 24</title></rect>
+<rect x="636.545454545455" y="135.051546391753" width="56" height="17.319587628866" fill="#C7821E"><title>2026-Q2 &#8226; Attendance: 14</title></rect>
+<rect x="636.545454545455" y="133.814432989691" width="56" height="1.23711340206186" fill="#D96C6C"><title>2026-Q2 &#8226; Lost Interest: 1</title></rect>
+<rect x="636.545454545455" y="122.680412371134" width="56" height="11.1340206185567" fill="#8E5EA2"><title>2026-Q2 &#8226; Personal Issues: 9</title></rect>
+<rect x="636.545454545455" y="117.731958762887" width="56" height="4.94845360824742" fill="#4A5A6E"><title>2026-Q2 &#8226; Schedule: 4</title></rect>
+<rect x="636.545454545455" y="114.020618556701" width="56" height="3.71134020618557" fill="#525B62"><title>2026-Q2 &#8226; Tech Problems: 3</title></rect>
+<rect x="636.545454545455" y="111.546391752577" width="56" height="2.47422680412371" fill="#B9550A"><title>2026-Q2 &#8226; Behavior: 2</title></rect>
+<rect x="636.545454545455" y="104.123711340206" width="56" height="7.42268041237113" fill="#0E6655"><title>2026-Q2 &#8226; Medical: 6</title></rect>
+<rect x="636.545454545455" y="101.649484536082" width="56" height="2.47422680412371" fill="#556B76"><title>2026-Q2 &#8226; Moved Away: 2</title></rect>
+<rect x="636.545454545455" y="97.9381443298969" width="56" height="3.71134020618557" fill="#7B241C"><title>2026-Q2 &#8226; Unhappy with Service: 3</title></rect>
+<rect x="636.545454545455" y="96.701030927835" width="56" height="1.23711340206186" fill="#946B2D"><title>2026-Q2 &#8226; Wants Different Class Type: 1</title></rect>
+<rect x="636.545454545455" y="95.4639175257732" width="56" height="1.23711340206186" fill="#5F9EA0"><title>2026-Q2 &#8226; Finished Projects: 1</title></rect>
+<rect x="636.545454545455" y="94.2268041237113" width="56" height="1.23711340206186" fill="#8B4513"><title>2026-Q2 &#8226; Instructor Problems: 1</title></rect>
+<rect x="636.545454545455" y="68.2474226804124" width="56" height="25.979381443299" fill="#B0B8C4"><title>2026-Q2 &#8226; Unknown: 21</title></rect>
+<text x="664.545454545455" y="64.2474226804124" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">155</text>
+<text x="664.545454545455" y="288" text-anchor="middle" font-size="11" fill="#000">2026-Q2</text>
+<rect x="700.181818181818" y="257.525773195876" width="56" height="2.47422680412371" fill="#5D9CE6"><title>2026-Q3 &#8226; Break: 2</title></rect>
+<rect x="700.181818181818" y="256.288659793814" width="56" height="1.23711340206186" fill="#B23A48"><title>2026-Q3 &#8226; Budget: 1</title></rect>
+<rect x="700.181818181818" y="251.340206185567" width="56" height="4.94845360824742" fill="#C7821E"><title>2026-Q3 &#8226; Attendance: 4</title></rect>
+<text x="728.181818181818" y="247.340206185567" text-anchor="middle" font-size="11" font-weight="700" fill="#1F3A5F">7</text>
+<text x="728.181818181818" y="288" text-anchor="middle" font-size="11" fill="#000">2026-Q3</text>
+</svg>
+<div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:12px;font-size:12px;color:#000">
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#5D9CE6;border-radius:3px;display:inline-block"></span>Break <span style="color:#7A8A9A">(224)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#7A8A9A;border-radius:3px;display:inline-block"></span>Busy <span style="color:#7A8A9A">(221)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#B23A48;border-radius:3px;display:inline-block"></span>Budget <span style="color:#7A8A9A">(180)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#C7821E;border-radius:3px;display:inline-block"></span>Attendance <span style="color:#7A8A9A">(167)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#B0B8C4;border-radius:3px;display:inline-block"></span>Unknown <span style="color:#7A8A9A">(163)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#D96C6C;border-radius:3px;display:inline-block"></span>Lost Interest <span style="color:#7A8A9A">(105)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#8E5EA2;border-radius:3px;display:inline-block"></span>Personal Issues <span style="color:#7A8A9A">(73)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#4A5A6E;border-radius:3px;display:inline-block"></span>Schedule <span style="color:#7A8A9A">(36)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#B9550A;border-radius:3px;display:inline-block"></span>Behavior <span style="color:#7A8A9A">(26)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#525B62;border-radius:3px;display:inline-block"></span>Tech Problems <span style="color:#7A8A9A">(26)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#0E6655;border-radius:3px;display:inline-block"></span>Medical <span style="color:#7A8A9A">(16)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#556B76;border-radius:3px;display:inline-block"></span>Moved Away <span style="color:#7A8A9A">(14)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#7B241C;border-radius:3px;display:inline-block"></span>Unhappy with Service <span style="color:#7A8A9A">(14)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#946B2D;border-radius:3px;display:inline-block"></span>Wants Different Class Type <span style="color:#7A8A9A">(12)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#5F9EA0;border-radius:3px;display:inline-block"></span>Finished Projects <span style="color:#7A8A9A">(5)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#8B4513;border-radius:3px;display:inline-block"></span>Instructor Problems <span style="color:#7A8A9A">(4)</span></div>
+<div style="display:flex;align-items:center;gap:6px"><span style="width:14px;height:14px;background:#4B4B4B;border-radius:3px;display:inline-block"></span>Passed Away <span style="color:#7A8A9A">()</span></div>
+</div></div>
+<h3 style="margin:22px 0 8px;font-size:15px;color:#1F3A5F">Detailed breakdown</h3>
+<div style="overflow-x:auto"><table style="width:100%;border-collapse:collapse;font-size:12.5px"><thead><tr style="background:#F0F4F8;color:#000">
+<th style="text-align:left;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase;letter-spacing:0.04em">Reason bucket</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2024-Q1</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2024-Q2</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2024-Q3</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2024-Q4</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2025-Q1</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2025-Q2</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2025-Q3</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2025-Q4</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2026-Q1</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2026-Q2</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;text-transform:uppercase">2026-Q3</th>
+<th style="text-align:right;padding:8px 10px;border-bottom:2px solid #E4E9EF;font-size:11px;background:#E4E9EF">Total</th>
+</tr></thead><tbody>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#5D9CE6;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Break</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">18</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">52</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">25</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">9</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">14</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">36</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">45</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">224</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#7A8A9A;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Busy</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">32</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">39</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">36</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">12</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">10</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">16</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">22</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">15</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">21</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">18</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">221</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#B23A48;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Budget</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">12</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">25</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">25</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">11</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">14</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">13</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">16</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">18</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">21</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">24</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">180</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#C7821E;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Attendance</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">37</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">31</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">18</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">10</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">12</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">13</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">13</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">14</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">167</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#B0B8C4;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Unknown</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">5</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">15</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">12</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">22</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">14</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">14</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">12</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">48</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">21</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">163</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#D96C6C;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Lost Interest</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">30</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">21</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">15</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">9</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">105</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#8E5EA2;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Personal Issues</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">5</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">8</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">11</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">13</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">9</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">73</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#4A5A6E;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Schedule</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">11</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">36</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#B9550A;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Behavior</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">26</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#525B62;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Tech Problems</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">5</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">26</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#0E6655;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Medical</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">6</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">16</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#556B76;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Moved Away</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">4</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">14</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#7B241C;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Unhappy with Service</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">3</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">14</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#946B2D;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Wants Different Class Type</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">12</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#5F9EA0;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Finished Projects</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">2</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">5</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#8B4513;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Instructor Problems</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC">4</td>
+</tr>
+<tr>
+<td style="padding:8px 10px;border-bottom:1px solid #F0F4F8;color:#000"><span style="display:inline-block;width:10px;height:10px;background:#4B4B4B;border-radius:2px;margin-right:8px;vertical-align:middle"></span>Passed Away</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000">1</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;color:#000;color:#B0B8C4">0</td>
+<td style="text-align:right;padding:8px 10px;border-bottom:1px solid #F0F4F8;font-variant-numeric:tabular-nums;font-weight:700;color:#000;background:#F8FAFC"></td>
+</tr>
+<tr style="font-weight:700;background:#F8FAFC"><td style="padding:8px 10px;color:#000">Quarter total</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">155</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">194</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">161</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">79</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">90</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">85</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">127</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">95</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">139</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">155</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000">7</td>
+<td style="text-align:right;padding:8px 10px;font-variant-numeric:tabular-nums;color:#000;background:#E4E9EF">1287</td></tr>
+</tbody></table></div>
+</div>
+</body></html>
